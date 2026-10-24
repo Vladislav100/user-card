@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "Inter";
+    src: local("Inter-Regular"), url(../fonts/InterRegular.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    display: grid;
+    background: #000;
+    place-items: center center;
+    height: 100vh;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    max-width: 281px;
+    width: 100%;
+    padding: 16px;
+    background-color: #1A1D22;
+    border-radius: 20px;
+    border: 1px solid #2A2F37;
+}
+
+.card-img {
+    margin-right: 16px;
+    width: 72px;
+    height: 72px;
+}
+
+.card-title {
+    margin-bottom: 4px;
+    font-size: 20px;
+    line-height: 100%;
+    color: white;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #9CA3AF;
+}
+
+.card-btn {
+    padding: 8px 12px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-color: #00447C;
+}
